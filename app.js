@@ -23,6 +23,7 @@ app.get('/tico', (req, res) => {
 });
 
 app.get('/pokemons', (req, res) => {
+  console.log("Just got a request!")
    const users = [
         {name: 'Pikachu'},
         {name: 'Butterfree'},
