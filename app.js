@@ -38,14 +38,7 @@ app.get('/pokemons', (req, res) => {
     res.send(users);
 });
 
-app.get('/series', (req, res) => {
-  const user = [
-       {name: 'Marriene'},
-       {name: 'A Maldição da Mansão Bly'},
-       {name: 'Brooklyn Nine-Nine'}
-   ];
-   res.send(user);
-})
+
 
 
 
