@@ -39,11 +39,12 @@ app.get('/pokemons', (req, res) => {
 })
 
 app.post('/series', (req, res) => {
-      res.json = [
+      const user = [
         {name: 'Marriene'},
         {name: 'A Maldição da Mansão Bly '},
         {name: 'Brooklyn Nine-Nine'}
     ];
+    return.send(user)
 })
 
 
