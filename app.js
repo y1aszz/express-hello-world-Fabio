@@ -10,17 +10,17 @@ app.get("/", (req, res) => res.type('html').send(html));
 app.get('/req', (req, res) => {
     console.log("Just got a request!")
     res.send('Yo!')
-})
+});
 
 app.get('/meunome', (req, res) => {
     console.log("Just got a request!")
     res.send('Meu nome é Yasmim Favaretto Sordi 🤩')
-})
+});
 
 app.get('/tico', (req, res) => {
     console.log("Just got a request!")
     res.send('teco 😂')
-})
+});
 
 app.get('/pokemons', (req, res) => {
    const users = [
@@ -36,8 +36,16 @@ app.get('/pokemons', (req, res) => {
         {name: 'Lapras'}
     ];
     res.send(users);
-})
+});
 
+app.get('/series', (req, res) => {
+  const user = [
+       {name: 'Marriene'},
+       {name: 'A Maldição da Mansão Bly'},
+       {name: 'Brooklyn Nine-Nine'}
+   ];
+   res.send(user);
+})
 
 
 
