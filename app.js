@@ -23,7 +23,7 @@ app.get('/tico', (req, res) => {
 })
 
 app.get('/pokemons', (req, res) => {
-   const users res.json = [
+   const users = [
         {name: 'Pikachu'},
         {name: 'Butterfree'},
         {name: 'Pidgeot'},
