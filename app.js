@@ -23,8 +23,19 @@ app.get('/tico', (req, res) => {
 })
 
 app.get('/pokemons', (req, res) => {
-    console.log("Just got a request!")
-    res.send('teco 😂')
+    const users = [
+        {name: 'Pikachu'},
+        {name: 'Butterfree'},
+        {name: 'Pidgeot'},
+        {name: 'Bulbasaur'},
+        {name: 'Charizard'},
+        {name: 'Squirtle'},
+        {name: 'Kingler'},
+        {name: 'Primeape'},
+        {name: 'Snorlax'},
+        {name: 'Lapras'}
+    ];
+    res.send(users);
 })
 
 
