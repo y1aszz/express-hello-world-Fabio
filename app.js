@@ -23,7 +23,7 @@ app.get('/tico', (req, res) => {
 })
 
 app.get('/pokemons', (req, res) => {
-    const users = [
+    res.json = [
         {name: 'Pikachu'},
         {name: 'Butterfree'},
         {name: 'Pidgeot'},
@@ -35,7 +35,14 @@ app.get('/pokemons', (req, res) => {
         {name: 'Snorlax'},
         {name: 'Lapras'}
     ];
-    res.send(users);
+})
+
+app.post('/series', (req, res) => {
+      res.json = [
+        {name: 'Marriene'},
+        {name: 'A Maldição da Mansão Bly '},
+        {name: 'Brooklyn Nine-Nine'}
+    ];
 })
 
 
