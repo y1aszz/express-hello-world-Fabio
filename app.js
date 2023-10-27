@@ -35,7 +35,7 @@ app.get('/pokemons', (req, res) => {
         {name: 'Snorlax'},
         {name: 'Lapras'}
     ];
-    return.send(users)
+    res.send(users);
 })
 
 
